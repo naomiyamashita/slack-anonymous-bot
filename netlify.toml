@@ -1,4 +1,4 @@
 [build]
-  publish = ".next"
+  command = "yarn build"
   functions = "api"
-  command = "npm run build"
+  publish = "build"
